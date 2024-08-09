@@ -15,9 +15,9 @@ public class Main {
         Curso curso3 = new Curso(3, "Quimica", 5, 5, catedratico3);
 
         // Instanciar 3 alumnos
-        Alumno alumno1 = new Alumno(1, "Carlos", "Calle 4", "4567890123", 20);
-        Alumno alumno2 = new Alumno(2, "Ana", "Calle 5", "1234567890", 21);
-        Alumno alumno3 = new Alumno(3, "Miguel", "Calle 6", "9876543210", 22);
+        Alumno alumno1 = new Alumno( "Carlos", "Calle 4", "4567890123", 20);
+        Alumno alumno2 = new Alumno( "Ana", "Calle 5", "1234567890", 21);
+        Alumno alumno3 = new Alumno( "Miguel", "Calle 6", "9876543210", 22);
 
         // Crear asignaciones
         Asignacion asignacion1 = new Asignacion();
